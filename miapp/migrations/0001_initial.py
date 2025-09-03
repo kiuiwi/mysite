@@ -18,6 +18,7 @@ class Migration(migrations.Migration):
                 ('cli_nombre', models.CharField(blank=True, max_length=40, null=True)),
                 ('cli_direccion', models.CharField(blank=True, max_length=60, null=True)),
                 ('cli_telefono', models.CharField(blank=True, max_length=24, null=True)),
+                
             ],
             options={
                 'db_table': 'CLIENTE',

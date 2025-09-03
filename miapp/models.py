@@ -7,6 +7,7 @@ class Cliente(models.Model):
     cli_nombre= models.CharField(max_length=40, null= True, blank=True)
     cli_direccion= models.CharField(max_length=60, null= True, blank=True)
     cli_telefono= models.CharField(max_length=24, null= True, blank=True)
+    
 
     #opcionalmente agregar el nombre de la tabla
     class Meta: 
